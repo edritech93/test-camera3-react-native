@@ -11,11 +11,12 @@
     "postinstall": "react-native setup-ios-permissions && pod-install"
   },
   "dependencies": {
+    "@shopify/react-native-skia": "0.1.175",
     "react": "18.2.0",
     "react-native": "0.72.3",
     "react-native-permissions": "^3.8.4",
-    "react-native-reanimated": "^3.4.1",
-    "react-native-vision-camera": "^2.15.5",
+    "react-native-vision-camera": "^3.0.0-rc.4",
+    "react-native-worklets": "https://github.com/chrfalch/react-native-worklets#d62d76c",
     "vision-camera-code-scanner": "^0.2.0"
   },
   "devDependencies": {
